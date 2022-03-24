@@ -1,3 +1,11 @@
+## Postgress 
+
+```bash
+sudo su - postgres
+sudo -u postgres createuser -s -i -d -r -l -w user001
+sudo -u postgres psql -c "ALTER ROLE user001 WITH PASSWORD 'password';"
+
+```
 
 ## Run Katze
 
