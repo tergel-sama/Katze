@@ -5,12 +5,20 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+table,
+tr,
+td,
+thead,
+th {
+  border: 1px solid;
 }
-
-* {
-  box-sizing: border-box;
+/* and design */
+.ant-pagination-item-active a {
+  color: var(--chakra-colors-white) !important;
+}
+.ant-pagination-item-active {
+  border-color: var(--chakra-colors-white) !important;
+}
+.ant-pagination-item:hover a {
+  color: var(--chakra-colors-white) !important;
 }
