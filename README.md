@@ -6,6 +6,13 @@ sudo -u postgres createuser -s -i -d -r -l -w user001
 sudo -u postgres psql -c "ALTER ROLE user001 WITH PASSWORD 'password';"
 
 ```
+## Prisma
+
+```
+npx prisma migrate dev
+npx prisma generate
+```
+
 
 ## Run Katze
 
